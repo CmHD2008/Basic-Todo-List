@@ -68,11 +68,13 @@ h1 {
     transform: translate(-50%);
     width: 90vw;
     height: 75vh;
+    overflow: auto;
 
     .todoItem {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 1rem;
 
         #todoItemTitle {
             width: 75vw;
